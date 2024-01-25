@@ -37,10 +37,6 @@ li a {
     text-decoration: none;
 }
 
-li a:not(.btn) {
-    color: var(--drop-darker);
-}
-
 h1 {
     font-size: 4rem;
     padding: 2rem 0;
@@ -121,6 +117,10 @@ h2 {
 
 .header_nav li {
     padding: 1rem;
+}
+
+.header_nav li a:not(.btn) {
+    color: var(--drop-darker);
 }
 
 .header_nav_right>ul {
@@ -206,7 +206,25 @@ h2 {
 /* #endregion main */
 
 /* #region footer */
+#site_footer {
+    background-color: var(--drop-darker);
+}
 .footer_nav ul {
+    color: var(--drop-lighter);
+    text-align: left;
     flex-grow: 1;
-    text-align: center;
+    padding: 4rem 0;
+}
+
+.footer_nav li a {
+    font-size: 0.8rem;
+    color: var(--drop-lighter);
+}
+
+.footer_language {
+    color: var(--drop-lighter);
+    font-size: 0.7rem;
+    width: fit-content;
+    border-top: 1px solid var(--drop-lighter);
+    padding: 2rem 0 1.5rem;
 }
