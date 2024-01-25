@@ -88,7 +88,6 @@ h2 {
 
 .col4 {
     width: calc((100% / 12) * 4);
-    background-color: palevioletred;
 }
 
 .col6 {
@@ -104,6 +103,17 @@ h2 {
     height: 50px;
 }
 
+.col4 img {
+    width: 100%;
+}
+
+.col4 * {
+    padding: 1rem 0;
+}
+
+.col8 img {
+    width: 100%;
+}
 /* #region header */
 .header_nav {
     max-width: 1850px;
@@ -134,9 +144,6 @@ h2 {
 .hero_page {
     background-color: var(--drop-hero_page_bg);
 }
-.col8 img {
-    width: 100%;
-}
 
 .hero_page .col4 div {
     padding: 2rem 0;
@@ -149,13 +156,20 @@ h2 {
 
     /* #region find_partners */
 .find_partners .col4 {
-    padding: 2rem;
-}
-
-.find_partners p {
-    padding: 1rem 0 2rem;
+    padding: 3rem;
 }
     /* #endregion find_partners */
+
+    /* #region operations */
+.operations .row {
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.operations .col4 {
+    padding: 1rem;
+}
+    /* #endregion operations */
 
 .partners_banner {
     height: 100px;
