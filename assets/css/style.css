@@ -23,11 +23,29 @@
 }
 
 /* #region common */
-
+ul {
+    list-style: none;
+}
 
 /* #region utilities */
 .d-flex {
     display: flex;
+}
+
+.container80 {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    background-color: yellowgreen;
+    height: 150px;
+}
+
+.container70 {
+    width: 70%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: orange;
+    height: 100px;
 }
 
 /* #region header */
@@ -48,4 +66,18 @@
     height: 40px;
     flex-grow: 1;
     background-color: aquamarine;
+}
+/* #endregion header */
+
+/* #region main */
+.partners_banner {
+    height: 100px;
+    background-color: lightcoral;
+}
+/* #endregion main */
+
+/* #region footer */
+.footer_nav ul {
+    flex-grow: 1;
+    text-align: center;
 }
