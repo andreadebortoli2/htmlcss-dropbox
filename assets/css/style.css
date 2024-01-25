@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px dashed black;       /*  Debug */
+    order: 1px dashed black;      /* Debug */
    
 }
 
@@ -33,7 +33,7 @@ ul {
     list-style: none;
 }
 
-a {
+li a {
     text-decoration: none;
 }
 
@@ -46,6 +46,12 @@ h1 {
     padding: 2rem 0;
     width: 90%;
 }
+
+h2 {
+    font-size: 2rem;
+    padding-bottom: 3rem;
+}
+
 /* #region utilities */
 .d-flex {
     display: flex;
@@ -57,6 +63,7 @@ h1 {
 
 .btn {
     padding: 0.5rem;
+    text-decoration: none;
 }
 
 .btn_b {
@@ -80,11 +87,16 @@ h1 {
     width: 70%;
     max-width: 1000px;
     margin: auto;
+    padding: 4rem 0;
 }
 
 .col4 {
     width: calc((100% / 12) * 4);
     background-color: palevioletred;
+}
+
+.col6 {
+    width: calc((100% / 12) * 6);
 }
 
 .col8 {
@@ -143,13 +155,52 @@ h1 {
 .find_partners p {
     padding: 1rem 0 2rem;
 }
-
-
     /* #endregion find_partners */
+
 .partners_banner {
     height: 100px;
     background-color: lightcoral;
 }
+
+    /* #region free_trial */
+.free_trial {
+    background-color: var(--drop-hero_page_bg);
+}
+
+.free_trial h2 {
+    padding-bottom: 0;
+}
+
+.free_trial :nth-child(2) {
+    text-align: end;
+}
+.free_trial .btn_w {
+    border: 0;
+    padding: 0.5rem 2rem;
+    line-height: 2rem;
+}
+    /* #endregion free_trial */
+
+    /* #region faq */
+.faq li {
+    padding: 2rem 0;
+    border-top: 1px solid var(--drop-darker);
+}
+
+.faq ul:last-child {
+    border-bottom: 1px solid var(--drop-darker);
+}
+
+.faq .d-flex {
+    justify-content: space-between;
+}
+
+.faq i {
+    padding: 0 2rem;
+}
+    /* #endregion faq */
+
+
 
 
 /* #endregion main */
