@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --drop-darker: rgba(0, 0, 0, 1);
+    --drop-lighter: rgba(255, 255, 255, 1);
+    --drop-hero_page_bg: rgba(180, 208, 231, 1);
+    --drop-btn: rgba(0, 97, 255, 1);
+    --drop-text_link: rgba(88, 17, 241, 1);
+    --drop-partner-banner-bg-desinit: rgba(162, 211, 155, 1);
+    --drop-partner-banner-bg-asu: rgba(97, 8, 43, 1);
+    --drop-partner-banner-bg-uf: rgba(0, 147, 206, 1);
+    --drop-partner-banner-bg-topps: rgba(255, 28, 28, 1);
+    --drop-partner-banner-bg-central: rgba(245, 245, 245, 1);
+    --drop-partner-banner-bg-wbr: rgba(213, 0, 31, 1);
+    --drop-partner-banner-bg-hearst: rgba(180, 208, 231, 1);
+    --drop-partner-banner-bg-l_p: rgba(13, 36, 129, 1);
+    --drop-partner-banner-bg-c_c_o: rgba(255, 216, 48, 1);
+}
+
+/* #region common */
+
+
+/* #region utilities */
