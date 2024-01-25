@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px dashed black;   /*  Debug */
 }
 
 :root {
@@ -25,3 +26,26 @@
 
 
 /* #region utilities */
+.d-flex {
+    display: flex;
+}
+
+/* #region header */
+.header_nav {
+    max-width: 1850px;
+    height: 50px;
+    align-items: center;
+    background-color: aqua;
+}
+
+.header_nav_left {
+    height: 40px;
+    flex-grow: 1;
+    background-color: blueviolet;
+}
+
+.header_nav_right {
+    height: 40px;
+    flex-grow: 1;
+    background-color: aquamarine;
+}
