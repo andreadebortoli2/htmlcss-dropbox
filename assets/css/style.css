@@ -155,7 +155,8 @@ h2 {
     background-color: var(--drop-hero_page_bg);
 }
 
-.hero_page .col4 :nth-child(3) {
+.hero_page .col4 :nth-child(3),
+.hero_page .col4 :nth-child(4) {
     padding: 2rem 0;
 }
 
@@ -173,9 +174,20 @@ h2 {
     color: var(--drop-darker);
 }
 
+.hero_page .col8 {
+    position: relative;
+}
+
+.hero_page .col8 img {
+    position: absolute;
+}
+
 /* #endregion hero_page */
 
 /* #region business_plans */
+.business_plans {
+    margin-top: 5rem;
+}
 
 input {
     appearance: none;
