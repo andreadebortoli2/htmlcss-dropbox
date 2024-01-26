@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    order: 1px dashed black;
-    /* Debug */
-
 }
 
 :root {
@@ -50,14 +47,15 @@ h2 {
     padding-bottom: 3rem;
 }
 
-h3,
-h4 {
-    padding: 1rem;
-}
-
 /* #region utilities */
 .d-flex {
     display: flex;
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -202,6 +200,10 @@ label {
     border-bottom: 1px solid var(--drop-col-border);
 }
 
+.business_plan h3, .business_plan h4 {
+    padding: 1rem;
+}
+
 .price,
 .details,
 .buy_now,
@@ -268,27 +270,45 @@ label {
     padding: 1rem;
 }
 
+.operations p {
+    padding: 1rem 0;
+}
 /* #endregion operations */
 
 /* #region partners_banner */
-
-
 .left, .right {
     flex-wrap: wrap;
 }
 
+.central {
+    padding: 2rem;
+}
+
+.central img {
+    width: 50%;
+}
+
+.central p {
+    padding: 4rem 0 2rem;
+}
+
 .single_banner {
     width: 50%;
-    aspect-ratio: 1;
+    height: 50%;
+}
+
+.single_banner svg {
+    width: 50%;
+}
+
+.single_banner path {
+    fill: var(--drop-lighter);
 }
 
 .designit {
-    background-color: var(--drop-partner-banner-bg-designit);
+    background-color: var(--drop-partner-banner-bg-designit); 
 }
 
-.designit img {
-    width: 50%;    
-}
 
 .asu {
     background-color: var(--drop-partner-banner-bg-asu);
