@@ -58,10 +58,6 @@ h2 {
     align-items: center;
 }
 
-.logo {
-    height: 20px;
-}
-
 .btn_b {
     background-color: var(--drop-btn);
 }
@@ -125,6 +121,9 @@ h2 {
     align-items: center;
 }
 
+.header_nav .logo {
+    height: 20px;
+}
 .header_nav>div {
     flex-grow: 1;
 }
@@ -336,12 +335,9 @@ label {
     height: 50%;
 }
 
-.single_banner svg {
+.single_banner .logo {
     width: 50%;
-}
-
-.single_banner path {
-    fill: var(--drop-lighter);
+    filter: invert(100%);
 }
 
 .designit {
