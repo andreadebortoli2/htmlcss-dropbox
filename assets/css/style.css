@@ -14,7 +14,7 @@
     --drop-btn: rgba(0, 97, 255, 1);
     --drop-text_link: rgba(88, 17, 241, 1);
     --drop-col-border: rgb(180, 180, 180);
-    --drop-partner-banner-bg-desinit: rgba(162, 211, 155, 1);
+    --drop-partner-banner-bg-designit: rgba(162, 211, 155, 1);
     --drop-partner-banner-bg-asu: rgba(97, 8, 43, 1);
     --drop-partner-banner-bg-uf: rgba(0, 147, 206, 1);
     --drop-partner-banner-bg-topps: rgba(255, 28, 28, 1);
@@ -220,6 +220,7 @@ label {
 .business_plan .btn_b {
     margin: 0 1rem;
     padding: 0.5rem 1rem;
+    text-align: center;
 }
 
 .buy_now span {
@@ -269,10 +270,58 @@ label {
 
 /* #endregion operations */
 
-.partners_banner {
-    height: 100px;
-    background-color: lightcoral;
+/* #region partners_banner */
+
+
+.left, .right {
+    flex-wrap: wrap;
 }
+
+.single_banner {
+    width: 50%;
+    aspect-ratio: 1;
+}
+
+.designit {
+    background-color: var(--drop-partner-banner-bg-designit);
+}
+
+.designit img {
+    width: 50%;    
+}
+
+.asu {
+    background-color: var(--drop-partner-banner-bg-asu);
+}
+
+.uf {
+    background-color: var(--drop-partner-banner-bg-uf);
+}
+
+.topps {
+    background-color: var(--drop-partner-banner-bg-topps);
+}
+
+.central {
+    background-color: var(--drop-partner-banner-bg-central);
+}
+
+.w_b_r {
+    background-color: var(--drop-partner-banner-bg-wbr);
+}
+
+.hearst {
+    background-color: var(--drop-partner-banner-bg-hearst);
+}
+
+.l_p {
+    background-color: var(--drop-partner-banner-bg-l_p);
+}
+
+.c_c_o {
+    background-color: var(--drop-partner-banner-bg-c_c_o);
+}
+/* #endregion partners_banner */
 
 /* #region free_trial */
 .free_trial {
