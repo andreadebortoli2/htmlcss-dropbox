@@ -72,8 +72,6 @@ h2 {
 }
 
 .btn_w {
-    /* text-decoration: none; */
-    /* color: var(--drop-darker); */
     background-color: var(--drop-lighter);
     border: 1px solid var(--drop-darker);
 }
@@ -139,11 +137,12 @@ h2 {
     padding: 1rem;
 }
 
-.header_nav li div:not(.btn_b) {
+.header_nav li a:not(.btn_b) {
     color: var(--drop-darker);
 }
 
 .header_nav .btn_b {
+    color: var(--drop-lighter);
     padding: 0.5rem;
 }
 
@@ -189,6 +188,10 @@ h2 {
     margin-top: 5rem;
 }
 
+.payment {
+    padding-bottom: 2rem;
+}
+
 input {
     appearance: none;
     border: 3px solid var(--drop-col-border);
@@ -203,13 +206,10 @@ input:checked {
 
 label {
     padding-right: 3rem;
-    line-height: 10rem;
     font-size: 0.8rem;
 }
 
-
-
-
+    /* card */
 .business_plan.col4,
 .business_plans .col12 {
     border: 1px solid var(--drop-col-border);
@@ -236,6 +236,10 @@ label {
     padding: 1rem;
 }
 
+.col4 .details {
+    min-height: 13rem;
+}
+
 .price li:nth-child(2) {
     color: var(--drop-col-border);
 }
@@ -257,6 +261,10 @@ label {
 
 .highlights .fa-li {
     color: var(--drop-btn);
+}
+
+.highlights {
+    padding-bottom: 3rem;
 }
 
 .business_plan.col12 {
@@ -418,10 +426,13 @@ label {
     background-color: var(--drop-darker);
 }
 
+.footer_nav {
+    justify-content: space-between;
+}
+
 .footer_nav ul {
     color: var(--drop-lighter);
     text-align: left;
-    flex-grow: 1;
     padding: 4rem 0;
 }
 
