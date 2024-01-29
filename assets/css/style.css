@@ -464,21 +464,43 @@ label {
 /* #endregion free_trial */
 
 /* #region faq */
-.faq li {
+.faqs li {
     padding: 2rem 0;
     border-top: 1px solid var(--drop-darker);
 }
 
-.faq ul:last-child {
+.faqs ul:last-child {
     border-bottom: 1px solid var(--drop-darker);
 }
 
-.faq .d-flex {
+.faqs .d-flex {
     justify-content: space-between;
 }
 
-.faq i {
+.faqs i {
     padding: 0 2rem;
+}
+
+.faq p {
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    display: none;
+}
+
+.faq:hover p {
+    display: block;
+}
+
+.reduce_faq {
+    display: none;
+}
+
+.faq:hover .expand_faq {
+    display: none;
+}
+
+.faq:hover .reduce_faq {
+    display: block;
 }
 
 /* #endregion faq */
