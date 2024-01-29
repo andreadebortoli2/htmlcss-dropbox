@@ -73,6 +73,7 @@ h2 {
 
 .btn_b:hover {
     filter: brightness(0.9);
+    transition: 1s;
 }
 
 .btn_w {
@@ -87,6 +88,7 @@ h2 {
 
 .btn_w:hover {
     filter: opacity(80%);
+    transition: 1s;
 }
 
 .container80 {
@@ -481,14 +483,26 @@ label {
     padding: 0 2rem;
 }
 
+.faq {
+    height: 80px;
+    transition: height 1s;
+}
+
+.faq:hover {
+    height: 140px;
+}
+
 .faq p {
     font-size: 0.8rem;
-    padding-top: 1rem;
-    display: none;
+    padding-top: 2rem;
+    width: 80%;
+    overflow: hidden;
+    height: 0;
+    transition: height 1s;
 }
 
 .faq:hover p {
-    display: block;
+    height: 100px;
 }
 
 .reduce_faq {
