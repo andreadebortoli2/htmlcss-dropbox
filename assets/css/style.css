@@ -23,6 +23,10 @@
 }
 
 /* #region common */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -82,7 +86,7 @@ h2 {
 }
 
 .btn_w:hover {
-    filter: opacity(50%);
+    filter: opacity(80%);
 }
 
 .container80 {
