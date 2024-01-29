@@ -385,12 +385,16 @@ label {
 
 .single_banner {
     width: 50%;
-    height: 50%;
+    aspect-ratio: 1;
 }
 
 .single_banner .logo {
     width: 50%;
     filter: invert(100%);
+}
+
+.single_banner:hover {
+    box-shadow: inset 0 0 0 30px rgba(255, 255, 255, 0.355);
 }
 
 .designit {
